@@ -1,0 +1,33 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Animal",
+            "creator": {
+                "id": "stammgeschichte",
+                "name": "stammgeschichte"
+            },
+            "created": "2025-03-21T13:22:38.663Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=18.096473693847656,15.96097183227539,54.45508575439453,57.897647857666016"
+        }
+    },
+    "id": "80e86da1-6530-49d1-9609-b04adb94f9ce.json",
+    "motivation": "commenting"
+}
