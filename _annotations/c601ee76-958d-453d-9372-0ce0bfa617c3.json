@@ -1,0 +1,34 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Human",
+            "purpose": "tagging",
+            "creator": {
+                "id": "stammgeschichte",
+                "name": "stammgeschichte"
+            },
+            "created": "2025-03-21T13:26:20.096Z",
+            "modified": "2025-03-21T13:26:20.738Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=224.33726501464844,12.518409729003906,60.40132141113281,84.499267578125"
+        }
+    },
+    "id": "c601ee76-958d-453d-9372-0ce0bfa617c3.json",
+    "motivation": "commenting"
+}
